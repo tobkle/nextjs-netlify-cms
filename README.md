@@ -1,5 +1,10 @@
 # TypeScript Next.js example
 
+Admin URL: https://app.netlify.com/sites/nextjs-netlify-cms-3
+URL: https://nextjs-netlify-cms-3.netlify.app
+Site ID: 1f60ace0-d92f-4610-b258-8ec94376dce5
+Netlify functions folder is /Users/toby/Code/netlify/nextjs-netlify-cms/out_functions
+
 This is a really simple project that shows the usage of Next.js with TypeScript.
 
 ## Deploy your own
