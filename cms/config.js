@@ -1,10 +1,11 @@
 export default {
     cms_manual_init: true,
     backend: {
-        // name: 'github',
-        name: 'git-gateway',
-        // repo: 'tobkle/nextjs-netlify-cms',
+        // name: 'git-gateway'
+        name: 'github',
+        repo: 'tobkle/nextjs-netlify-cms',
         branch: 'main',
+        base_url: 'https://nextjs-netlify-cms-3.netlify.app',
         // base_url: 'https://nextjs-netlify-cms.vercel.app',
     },
     media_folder: 'public/img',
