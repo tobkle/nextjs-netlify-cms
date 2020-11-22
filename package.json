@@ -10,6 +10,8 @@
   "dependencies": {
     "netlify-cms-app": "^2.12.25",
     "next": "latest",
+    "next-on-netlify": "^2.6.3",
+    "postbuild": "next-on-netlify",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
