@@ -3,7 +3,7 @@ export default {
     backend: {
         // name: 'github',
         name: 'git-gateway',
-        repo: 'tobkle/nextjs-netlify-cms',
+        // repo: 'tobkle/nextjs-netlify-cms',
         branch: 'main',
         // base_url: 'https://nextjs-netlify-cms.vercel.app',
     },
