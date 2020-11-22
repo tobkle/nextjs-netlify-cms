@@ -6,8 +6,6 @@ export default {
         repo: 'tobkle/nextjs-netlify-cms',
         branch: 'main',
         squash_merges: true,
-        //base_url: 'https://nextjs-netlify-cms-3.netlify.app',
-        // base_url: 'https://nextjs-netlify-cms.vercel.app',
     },
     media_folder: 'public/img',
     public_folder: 'img',
