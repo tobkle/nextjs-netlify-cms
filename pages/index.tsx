@@ -1,5 +1,5 @@
 import { NextPage, GetStaticProps } from 'next'
-import Image, { ImageProps } from 'next/image'
+import Image from 'next/image'
 
 interface Props {
     content: { attributes: HomeAttributes }
@@ -53,21 +53,6 @@ export declare type ImageProps = Omit<
               layout?: Exclude<LayoutValue, 'fill'>
           }
     )
-export default function Image({
-    src,
-    sizes,
-    unoptimized,
-    priority,
-    loading,
-    className,
-    quality,
-    width,
-    height,
-    objectFit,
-    objectPosition,
-    ...all
-}: ImageProps): JSX.Element
-export {}
 
 const HomePage: NextPage<Props> = ({ content }) => {
     const { attributes } = content
